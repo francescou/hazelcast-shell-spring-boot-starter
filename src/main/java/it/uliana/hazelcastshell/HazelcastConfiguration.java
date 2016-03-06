@@ -7,6 +7,12 @@ import org.springframework.context.annotation.Configuration;
 
 import javax.annotation.PostConstruct;
 
+/**
+ *
+ * Hazelcast Shell configuration class, loaded by META-INF/spring.factories
+ *
+ */
+
 @Configuration
 @ComponentScan(basePackageClasses = HazelcastService.class)
 public class HazelcastConfiguration {

@@ -9,9 +9,14 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.PostConstruct;
 import java.util.List;
 import java.util.stream.Collectors;
+
+/**
+ *
+ * API providing utility functions to manage hazelcast distributed maps
+ *
+ */
 
 @Service
 public class HazelcastService {

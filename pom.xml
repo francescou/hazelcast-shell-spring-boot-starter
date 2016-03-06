@@ -5,8 +5,7 @@
 
   <groupId>it.uliana.hazelcastshell</groupId>
   <artifactId>hazelcast-shell</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <version>0.0.2-SNAPSHOT</version>
 
   <name>Spring Boot Hazelcast Shell</name>
   <description>hazelcast shell command for spring-boot-starter-remote-shell</description>
