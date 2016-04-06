@@ -57,9 +57,8 @@
   </distributionManagement>
 
   <scm>
-    <connection>scm:git:git@github.com:francescou/hazelcast-shell-spring-boot-starter</connection>
+    <connection>scm:git:git@github.com:francescou/hazelcast-shell-spring-boot-starter.git</connection>
     <developerConnection>scm:git:git@github.com:francescou/hazelcast-shell-spring-boot-starter.git</developerConnection>
-    <url>https://github.com/francescou/hazelcast-shell-spring-boot-starter</url>
-    <tag>HEAD</tag>
+    <url>scm:git:git@github.com:francescou/hazelcast-shell-spring-boot-starter.git</url>
   </scm>
 </project>
