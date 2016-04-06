@@ -70,7 +70,7 @@
 
   <licenses>
     <license>
-      <names>Apache License, Version 2.0</name>
+      <name>Apache License, Version 2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
       <comments>
 Copyright 2014-2015 the original author or authors.
