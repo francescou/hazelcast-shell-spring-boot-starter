@@ -8,6 +8,7 @@
 
   <name>Spring Boot Hazelcast Shell</name>
   <description>hazelcast shell command for spring-boot-starter-remote-shell</description>
+  <url>https://github.com/francescou/hazelcast-shell-spring-boot-starter</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -66,4 +67,67 @@
     <url>scm:git:git@github.com:francescou/hazelcast-shell-spring-boot-starter.git</url>
     <tag>HEAD</tag>
   </scm>
+
+  <licenses>
+    <license>
+      <names>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <comments>
+Copyright 2014-2015 the original author or authors.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+implied.
+
+See the License for the specific language governing permissions and
+limitations under the License.
+      </comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>francesco.uliana</id>
+      <name>Francesco Uliana</name>
+      <email>francesco at uliana.it</email>
+      <roles>
+        <role>Project lead</role>
+      </roles>
+    </developer>
+  </developers>
+
+  <profiles>
+    <profile>
+      <id>release-sign-artifacts</id>
+      <activation>
+        <property>
+          <name>performRelease</name>
+          <value>true</value>
+        </property>
+      </activation>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-gpg-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>sign-artifacts</id>
+                <phase>verify</phase>
+                <goals>
+                  <goal>sign</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
 </project>
