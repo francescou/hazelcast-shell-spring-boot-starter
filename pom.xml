@@ -55,4 +55,11 @@
       <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
     </repository>
   </distributionManagement>
+
+  <scm>
+    <connection>scm:git:git@github.com:francescou/hazelcast-shell-spring-boot-starter</connection>
+    <developerConnection>scm:git:git@github.com:francescou/hazelcast-shell-spring-boot-starter.git</developerConnection>
+    <url>https://github.com/francescou/hazelcast-shell-spring-boot-starter</url>
+    <tag>HEAD</tag>
+  </scm>
 </project>
