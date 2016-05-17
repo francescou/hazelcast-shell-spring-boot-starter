@@ -12,3 +12,17 @@ Maven dependency:
   <version>0.0.6</version>
 </dependency>
 ```
+
+## Usage
+
+Connect to the remote shell [guide](http://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-remote-shell.html#production-ready-connecting-to-the-remote-shell)
+
+```
+ssh user@localhost -p 2000
+
+> hazelcast list
+
+> hazelcast get MY_KEY
+
+> hazelcast clear
+```
