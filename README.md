@@ -17,6 +17,7 @@ Maven dependency:
 
 Connect to the remote shell [guide](http://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-remote-shell.html#production-ready-connecting-to-the-remote-shell)
 
+
 ```
 ssh user@localhost -p 2000
 
@@ -26,3 +27,7 @@ ssh user@localhost -p 2000
 
 > hazelcast clear
 ```
+
+## Example
+
+![hazelcast](http://i.imgur.com/QHPvtCH.gif)
